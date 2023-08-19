@@ -318,10 +318,12 @@ PRODUCT_PACKAGES += \
     DMService \
     DiagMon \
     EuiccGoogle \
+    GCS \
     HardwareInfo \
     HotwordEnrollmentOKGoogleHEMIDELTA \
     HotwordEnrollmentXGoogleHEMIDELTA \
     OemDmTrigger \
+    SCONE \
     SprintDM \
     TetheringEntitlement \
     USCCDM \
