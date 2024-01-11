@@ -280,7 +280,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/coral/proprietary/vendor/bin/diag_mdlog:$(TARGET_COPY_OUT_VENDOR)/bin/diag_mdlog \
     vendor/google/coral/proprietary/vendor/bin/diag_socket_log:$(TARGET_COPY_OUT_VENDOR)/bin/diag_socket_log \
     vendor/google/coral/proprietary/vendor/bin/diag_uart_log:$(TARGET_COPY_OUT_VENDOR)/bin/diag_uart_log \
-    vendor/google/coral/proprietary/vendor/bin/hw/android.hardware.biometrics.face@1.0-service.google:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.face@1.0-service.google \
     vendor/google/coral/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/google/coral/proprietary/vendor/bin/hw/android.hardware.confirmationui@1.0-service-google:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.confirmationui@1.0-service-google \
     vendor/google/coral/proprietary/vendor/bin/hw/android.hardware.drm-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm-service.widevine \
@@ -507,7 +506,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/coral/proprietary/vendor/etc/default_coral.mps:$(TARGET_COPY_OUT_VENDOR)/etc/default_coral.mps \
     vendor/google/coral/proprietary/vendor/etc/default_f2proto.mps:$(TARGET_COPY_OUT_VENDOR)/etc/default_f2proto.mps \
     vendor/google/coral/proprietary/vendor/etc/default_flame.mps:$(TARGET_COPY_OUT_VENDOR)/etc/default_flame.mps \
-    vendor/google/coral/proprietary/vendor/etc/init/android.hardware.biometrics.face@1.0-service.google.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.face@1.0-service.google.rc \
     vendor/google/coral/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/google/coral/proprietary/vendor/etc/init/android.hardware.confirmationui@1.0-service-google.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.confirmationui@1.0-service-google.rc \
     vendor/google/coral/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
@@ -782,32 +780,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/coral/proprietary/vendor/firmware/cs40l25a_cal.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_cal.bin \
     vendor/google/coral/proprietary/vendor/firmware/cs40l25a_cal.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_cal.wmfw \
     vendor/google/coral/proprietary/vendor/firmware/cs40l25a_exc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_exc.bin \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_config.yaml:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_config.yaml \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v1.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v1.b00 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v1.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v1.b01 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v1.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v1.b02 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v1.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v1.b03 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v1.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v1.mdt \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v1_1.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v1_1.b00 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v1_1.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v1_1.b01 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v1_1.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v1_1.b02 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v1_1.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v1_1.b03 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v1_1.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v1_1.mdt \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v2.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v2.b00 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v2.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v2.b01 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v2.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v2.b02 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v2.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v2.b03 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v2.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v2.mdt \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v3.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v3.b00 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v3.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v3.b01 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v3.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v3.b02 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v3.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v3.b03 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v3.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v3.mdt \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v4.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v4.b00 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v4.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v4.b01 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v4.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v4.b02 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v4.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v4.b03 \
-    vendor/google/coral/proprietary/vendor/firmware/faceauth_v4.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/faceauth_v4.mdt \
     vendor/google/coral/proprietary/vendor/firmware/ftm5_fw_c2.ftb:$(TARGET_COPY_OUT_VENDOR)/firmware/ftm5_fw_c2.ftb \
     vendor/google/coral/proprietary/vendor/firmware/ftm5_fw_f2.ftb:$(TARGET_COPY_OUT_VENDOR)/firmware/ftm5_fw_f2.ftb \
     vendor/google/coral/proprietary/vendor/firmware/ftm5_fw_f2_evt1.ftb:$(TARGET_COPY_OUT_VENDOR)/firmware/ftm5_fw_f2_evt1.ftb \
@@ -871,6 +843,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/coral/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
     vendor/google/coral/proprietary/vendor/firmware/wlanmdsp.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/wlanmdsp.mbn \
     vendor/google/coral/proprietary/vendor/lib/adsp_camera/libhalide_hexagon_remote_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/adsp_camera/libhalide_hexagon_remote_skel.so \
+    vendor/google/coral/proprietary/vendor/lib/aoc_audio_stereo_spatializer.so:$(TARGET_COPY_OUT_VENDOR)/lib/aoc_audio_stereo_spatializer.so \
     vendor/google/coral/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
     vendor/google/coral/proprietary/vendor/lib/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv2.so \
     vendor/google/coral/proprietary/vendor/lib/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv3.so \
@@ -1200,6 +1173,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/coral/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/google/coral/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
     vendor/google/coral/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
+    vendor/google/coral/proprietary/vendor/lib/soundfx/libspatialaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libspatialaudio.so \
     vendor/google/coral/proprietary/vendor/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvolumelistener.so \
     vendor/google/coral/proprietary/vendor/lib/vendor-pixelatoms-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor-pixelatoms-cpp.so \
     vendor/google/coral/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
@@ -1259,6 +1233,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/coral/proprietary/vendor/lib64/android.hardware.keymaster@4.1-impl.nos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.keymaster@4.1-impl.nos.so \
     vendor/google/coral/proprietary/vendor/lib64/android.hardware.oemlock@1.0-impl.nos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.oemlock@1.0-impl.nos.so \
     vendor/google/coral/proprietary/vendor/lib64/android.hardware.weaver@1.0-impl.nos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.weaver@1.0-impl.nos.so \
+    vendor/google/coral/proprietary/vendor/lib64/aoc_audio_stereo_spatializer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/aoc_audio_stereo_spatializer.so \
     vendor/google/coral/proprietary/vendor/lib64/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/btaudio_offload_if.so \
     vendor/google/coral/proprietary/vendor/lib64/camera/capture_sessions/lib_multicam_dualfov_capture_session.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/capture_sessions/lib_multicam_dualfov_capture_session.so \
     vendor/google/coral/proprietary/vendor/lib64/camera/com.google.gabc.tuning.imx363.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.google.gabc.tuning.imx363.so \
@@ -1688,6 +1663,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/coral/proprietary/vendor/lib64/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcreverb.so \
     vendor/google/coral/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so \
     vendor/google/coral/proprietary/vendor/lib64/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libshoebox.so \
+    vendor/google/coral/proprietary/vendor/lib64/soundfx/libspatialaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libspatialaudio.so \
     vendor/google/coral/proprietary/vendor/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvolumelistener.so \
     vendor/google/coral/proprietary/vendor/lib64/unnhal-acc-adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-adreno.so \
     vendor/google/coral/proprietary/vendor/lib64/unnhal-acc-common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-common.so \
@@ -1916,7 +1892,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-qti \
     android.hardware.weaver@1.0-service.citadel \
     manifest_android.hardware.drm-service.widevine \
-    manifest_face \
     manifest_input.processor-service \
     manifest_wifi_ext \
     rebootescrow-citadel \
